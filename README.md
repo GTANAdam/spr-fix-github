@@ -5,7 +5,7 @@ A userscript that removes Pull Request-related buttons from Github for projects 
 
 ## Install
 1. Install any userscript manager, for example: [Tampermonkey for Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)
-2. Click this [link](https://raw.githubusercontent.com/GTANAdam/spr-fix-github/main/userscript.js) to install from GitHub
+2. Click [this link](https://github.com/GTANAdam/spr-fix-github/raw/main/spr-fix-github.user.js) to install from GitHub
 
 ## Example screenshots
 Before
