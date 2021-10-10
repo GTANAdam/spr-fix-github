@@ -1,4 +1,5 @@
 // ==UserScript==
+// @author      GTANAdam
 // @name        Github No Merge Button
 // @namespace   github.com
 // @description Github merge button remover for SPR based projects
