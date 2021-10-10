@@ -21,16 +21,6 @@ const work = function(selector) {
     if (typeof el !== 'undefined') {
         el.remove();
     }
-
-    if (typeof ran === 'undefined') {
-        window.ran = true;
-        if (MutationObserver != undefined) {
-            const searchEl = document.querySelectorAll(selector);
-            if (searchEl.length > 0) {
-                new MutationObserver(work).observe(searchEl, {childList: true, subtree: true});
-            }
-        }
-    }
 };
 
 const checkElementThenRun = function(selector) {
